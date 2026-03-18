@@ -18,7 +18,7 @@ const uint64_t kMega = kKilo * kKilo;
 const uint64_t kGiga = kMega * kKilo;
 const uint64_t kTera = kGiga * kKilo;
 
-const uint64_t kLABSpaceSize = 100 * kPageSize;
+const uint64_t kLABSpaceSize = 1000 * kPageSize;
 const uint64_t kObjectSpaceSize = 35 * kTera;
 
 // TODO: Cleanup.
